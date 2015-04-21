@@ -10,7 +10,7 @@ class Config(object):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQL_ALCHEMY_DATABASE_URI = 'postgresql://localhos/knowhow'
+    SQL_ALCHEMY_DATABASE_URI = 'postgresql://localhost/knowhow'
 
 
 class TestingConfig(Config):
