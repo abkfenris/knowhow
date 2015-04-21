@@ -1,0 +1,3 @@
+python:
+    command: /usr/bin/env python $(which nosetests)
+    watch_glob: "*.py"
